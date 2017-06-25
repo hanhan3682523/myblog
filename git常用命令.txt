@@ -1,11 +1,12 @@
-/*********************************GIT命令**************************************/
+﻿/*********************************GIT命令**************************************/
 
 1、git init     // 初始化一个Git仓库
 2、git status   // 查看仓库的状态
 3、git add *    // 将所有修改添加到暂存区
 4、git commit -m "comment"  // 将暂存区的修改提交到仓库 后面添加上有意义的注视信息
 5、git remote add origin https://github.com/hanhan3682523/myblog.git   //添加一个远程仓库
-6、git push -u origin master  // 将本地的master分支推送到远程的master分支中
+6、git pull --rebase origin master //合并本地和库上文件
+7、git push -u origin master  // 将本地的master分支推送到远程的master分支中
 
 
 

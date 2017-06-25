@@ -6,8 +6,9 @@
 *************************************/
 module.exports = {
 	site_name:'飘落的枫叶个人博客',
-	keywords:'前端开发,',
+	keywords:'前端开发,Node.js',
 	db:'mongodb://localhost:27017/maple_leaf_blog',
+	port:'3000',
 	admin:{
 		username:'admin',
 		password:'******'
